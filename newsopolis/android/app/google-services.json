@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39554540825",
+    "project_id": "newsopolis-d5eb5",
+    "storage_bucket": "newsopolis-d5eb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39554540825:android:f321133b6d7ed799335188",
+        "android_client_info": {
+          "package_name": "com.example.newsopolis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39554540825-dcqcciaupqu3f97mej03ks13j1bjeg50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsopolis",
+            "certificate_hash": "26d74a7a3f2f72ec3f66152462bf31646fb70348"
+          }
+        },
+        {
+          "client_id": "39554540825-knna57tidklfj9r3mh5mgcmrpvj3r1qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqkgaaYapkbcrwsp5p9ah-2rs7u-8qbj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39554540825-knna57tidklfj9r3mh5mgcmrpvj3r1qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
