@@ -44,7 +44,7 @@ class _State extends State<PublishOffer> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              "$_dialogAction Publicacion",
+              "$_dialogAction ",
               style: Theme.of(context).textTheme.headline2,
             ),
             Padding(
@@ -56,7 +56,7 @@ class _State extends State<PublishOffer> {
                 maxLines: null,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(),
-                  labelText: 'Oferta',
+                  labelText: 'Publicación',
                 ),
               ),
             ),

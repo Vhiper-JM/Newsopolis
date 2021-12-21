@@ -86,7 +86,7 @@ class _ChatPageState extends State<ChatPage> {
           child: Container(
             margin: const EdgeInsets.only(left: 5.0, top: 5.0),
             child: TextField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 border: OutlineInputBorder(),
                 labelText: 'Your message',
               ),
@@ -99,7 +99,7 @@ class _ChatPageState extends State<ChatPage> {
           ),
         ),
         TextButton(
-            child: Text('Send'),
+            child: const Text('Send'),
             onPressed: () {
               _sendMsg(_textController.text);
               _textController.clear();
@@ -110,16 +110,14 @@ class _ChatPageState extends State<ChatPage> {
 
   _scrollToEnd() async {
     _scrollController.animateTo(_scrollController.position.maxScrollExtent,
-        duration: Duration(milliseconds: 200), curve: Curves.easeInOut);
+        duration: const Duration(milliseconds: 200), curve: Curves.easeInOut);
   }
 
   @override
   Widget build(BuildContext context) {
     WidgetsBinding.instance!.addPostFrameCallback((_) => _scrollToEnd());
-    return Container(
-      child: Column(
-        children: [Expanded(flex: 4, child: _list()), _textInput()],
-      ),
+    return Column(
+      children: [Expanded(flex: 4, child: _list()), _textInput()],
     );
   }
 }

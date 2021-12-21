@@ -14,15 +14,14 @@ class PublicOffersScreen extends StatefulWidget {
 }
 
 class _State extends State<PublicOffersScreen> {
-  late WorkPoolService service;
+  
   late Future<List<PublicJob>> futureJobs;
   late ConnectivityController connectivityController;
 
   @override
   void initState() {
     super.initState();
-    service = WorkPoolService();
-    futureJobs = service.fecthData();
+    
     connectivityController = Get.find<ConnectivityController>();
   }
 

@@ -10,6 +10,8 @@ import 'package:newsopolis/ui/pages/content/states/states_screen.dart';
 import 'package:newsopolis/ui/pages/content/users_offers/users_offers_screen.dart';
 import 'package:newsopolis/ui/widgets/appbar.dart';
 
+import 'location/location_screen.dart';
+
 class ContentPage extends StatelessWidget {
   const ContentPage({Key? key}) : super(key: key);
 

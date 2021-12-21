@@ -1,5 +1,3 @@
-
-
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:newsopolis/domain/models/location.dart';

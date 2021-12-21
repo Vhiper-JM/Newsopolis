@@ -1,11 +1,11 @@
-import 'dart:convert';
+/* import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:newsopolis/domain/models/location.dart';
 import 'package:newsopolis/domain/services/misiontic_interface.dart';
 
 class LocationService implements MisionTicService {
   final String baseUrl = 'misiontic-2022-uninorte.herokuapp.com';
-  final String apiKey = 'fil3AmpylFwuFRoC6g.N2eZy8.jy5Bqf0pTitkrowrCKV5k7eRVCC';
+  final String apiKey = 'kDw5fZW8UTyOC1ok65Euz.yWP/vcYx6hGG1Kww4DxcdWBOvaUg7UG';
 
   @override
   Future<List<UserLocation>> fecthData({int limit = 5, Map? map}) async {
@@ -32,3 +32,4 @@ class LocationService implements MisionTicService {
     }
   }
 }
+ */

@@ -17,7 +17,7 @@ class LocationScreen extends StatelessWidget {
   final permissionsController = Get.find<PermissionsController>();
   final connectivityController = Get.find<ConnectivityController>();
   final locationController = Get.find<LocationController>();
-  final service = LocationService();
+  //final service = LocationService();
 
   @override
   Widget build(BuildContext context) {
@@ -45,15 +45,16 @@ class LocationScreen extends StatelessWidget {
                   )
                 : const CircularProgressIndicator(),
           ),
-          Padding(
+          /* Padding(
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
               'CERCA DE MÍ',
               style: Theme.of(context).textTheme.headline1,
             ),
-          ),
+          ), */
           // ListView on remaining screen space
-          Obx(() {
+          
+          /*  Obx(() {
             if (locationController.location != null) {
               var futureLocations = service.fecthData(
                 map: locationController.location!.toJson,
@@ -87,7 +88,7 @@ class LocationScreen extends StatelessWidget {
             } else {
               return const CircularProgressIndicator();
             }
-          })
+          } ) */
         ],
       ),
     );
